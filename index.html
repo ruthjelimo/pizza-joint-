@@ -10,13 +10,16 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+     <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"
+  ></script>
     <link rel="stylesheet" href="index.css" />
     <title>pizza-joint</title>
   </head>
   <body>
-   
       <div class="nav-bar">
         <img src="images/piz.jpg" height="70px" />
         <h2>pizza joint!!</h2>
@@ -32,11 +35,9 @@
           <div class="carousel-item active">
             <img src="images/pizza.jpg" class="d-block w-100" alt="...">
           </div>
-           
           <div class="carousel-item">
             <img src="images/gluten-freee.jpg" class="d-block w-100" alt="...">
           </div>
-          
            <div class="carousel-item">
             <h1><b>
               Best pizza in town!!<br />
@@ -44,17 +45,21 @@
              </b>
             </h1>
           </div>
-       
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> 
+      </div>
+  
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
