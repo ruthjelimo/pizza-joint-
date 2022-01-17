@@ -140,7 +140,53 @@
      <option value="250">Stuffed crust @Ksh.250</option>
    </select>
  <p>Choose the topping </p>
-  
+   <select class="form-control form-control-sm" id="Topping">
+     <option>select</option>
+     <option value="120">Sausage @ Ksh.120</option>
+     <option value="150">potato @Ksh.150</option>
+     <option value="200">Black olives @Ksh.200</option>
+   </select>
+ </div>
+ </form>
+ <form id="pricing">
+   <option value="one"></option>
+   <div class="form-group">
+         <label for="" >Number of Pizza </label>
+         <br>
+         <input type="number" class="form-control" id="number" placeholder="" required  min="1"/>
+       </div>
+       <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order</button>
+     </form>
+     </div>
+ <br><br>
+ <div class="container" id="contain">
+ <div class="col-sm-7" id="orderPut">              
+   <div class="orderCalculation">
+     <h2>Your Order is:</h2>
+     <div id="your-orders">
+       <table class="table table-sm  pizzaTable">
+         <thead>
+           <tr>
+             <th scope="col">Flavour</th>
+             <th scope="col">Size</th>
+             <th scope="col">Crust</th>
+             <th scope="col">Topping</th>
+             <th scope="col">Quantity</th>
+             <th scope="col">Total</th>
+           </tr>
+         </thead>
+         <tbody id="ordersTaken">
+           
+         </tbody>
+       </table>
+       <p class="deliveryCost hidden">
+         Delivery Cost: Ksh. <span id="delivery-cost"></span>
+     </p>
+     <p class="TotalAmount hidden">
+         Total Amount: Ksh. <span id="totalAmount"></span>
+     </p>
+     <br /><br />
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
