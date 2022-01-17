@@ -1,0 +1,102 @@
+.nav-bar{
+    display: flex;
+    float: left;
+    align-items: center;
+    
+}
+.nav-bar >ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+li{
+    padding: 20px;
+    margin-left: 150px;
+}
+.pizza{
+    display: flex;
+    float: left;   
+}
+.pizza >img{
+    width: 800px;
+    padding-left: 10px; 
+}
+.pizza >h1{
+    padding-left: 100px;
+    margin-top: 200px;
+}
+
+.grid{
+    position: relative;
+    top:600px;
+    
+}
+.grid >h2{
+    position: relative;
+    right: 700px;
+    position: relative;
+    top: 30px;
+}
+.menus{
+    display: flex;
+    float: left;
+    position: relative;
+    top:-450px;
+    margin-left: 100px;
+
+}
+.menus #gluten{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+span{
+    color: blue;
+}
+
+#about >img{
+    
+padding-right: 40px;
+}
+.col-3{
+    padding: 5px;
+
+}
+.container >h2{
+    text-align: center;
+}
+#gluten{
+    justify-content: space-between;
+    
+}
+#gluten_medium{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#stuffed{
+justify-content: space-between;
+}
+#crispy{
+    padding: auto;
+}
+.contact >h4{
+    align-items: center;
+}
+form{
+     background-image: url("images/gluten-freee.jpg");
+     background-position: center;
+     background-size: cover;
+     opacity: 1.0; 
+     justify-content: center;
+}
+.footer {
+    background-color: slategrey;
+    padding: 2px;
+ 
+}
+.footer >p{
+    margin-left: 350px;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
