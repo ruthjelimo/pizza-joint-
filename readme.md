@@ -1,5 +1,5 @@
 ## Design
-<img src="Images/screen.png">
+<img src="images/screen.png">
 
 ## Pizza-joint
 
